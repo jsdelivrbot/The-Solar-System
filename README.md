@@ -1,12 +1,10 @@
-== README
-
 # The-Solar-System
 
 A quick and immersive journey through our Solar System with a soft primer on Gravitational Physics. Must read for aspiring astronomers, young star-gazers and all the little science enthusiasts out there. Learn how our planetary system works and how astronomy connects it all together! 
 
 
 ## Book, Chapters & Pages
-Things you may want to cover:
+Things you may want to cover in this repository:
 
 * HEAD
 
@@ -19,9 +17,11 @@ Things you may want to cover:
 
 ## Contributing
 
-1. Fork it ( https://github.com/marvindanig/threejs-rails/fork )
+Feel free to contribute in about Space & Astronomy that you think will befit this Superbook.
+
+1. Fork it ( https://github.com/bubblin/The-Solar-System/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
+3. Commit your changes (`git commit -am 'Add a page on (/topic)'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
 6. <a href = "mailto:marvin@bubbl.in">Contact me</a> if I don't respond within 24 hours.
