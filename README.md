@@ -5,9 +5,6 @@
 A quick and immersive journey through our Solar System with a soft primer on Gravitational Physics. Must read for aspiring astronomers, young star-gazers and all the little science enthusiasts out there. Learn how our planetary system works and how astronomy connects it all together! 
 
 
-## The Author
-Marvin Danig. 
-
 ## Book, Chapters & Pages
 Things you may want to cover:
 
@@ -18,8 +15,6 @@ Things you may want to cover:
 * CSS
 
 * JS
-
-## Usage
 
 
 ## Contributing
