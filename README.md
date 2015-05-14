@@ -6,6 +6,8 @@ A quick and immersive journey through our Solar System with a soft primer on Gra
 ## Book, Chapters & Pages
 Things you may want to cover in this repository:
 
+Each page of the book may (or may not) contain the all following resources:
+
 * HEAD
 
 * HTML
@@ -14,15 +16,16 @@ Things you may want to cover in this repository:
 
 * JS
 
+More importantly, the style (CSS) on page no. --- is applicable to entire book whenever text takes over. Note the very little amount of CSS that is required!  
 
 ## Contributing
 
 Feel free to contribute in about Space & Astronomy that you think will befit this Superbook.
 
 1. Fork it ( https://github.com/bubblin/The-Solar-System/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
+2. Create your feature branch (`git checkout -b my-new-page`)
 3. Commit your changes (`git commit -am 'Add a page on (/topic)'`)
-4. Push to the branch (`git push origin my-new-feature`)
+4. Push to the branch (`git push origin my-new-page`)
 5. Create a new Pull Request
 6. <a href = "mailto:marvin@bubbl.in">Contact me</a> if I don't respond within 24 hours.
 
