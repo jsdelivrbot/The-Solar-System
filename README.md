@@ -2,14 +2,11 @@
 
 A quick and immersive journey through our Solar System with a soft primer on Gravitational Physics. Must read for aspiring astronomers, young star-gazers and all the little science enthusiasts out there. Learn how our planetary system works and how astronomy connects it all together! 
 
-## Additional code references:
-If you're into Codepen for front-end experiments then you might want to check out some of these [pieces](http://codepen.io/marvindanig/public/) too.
-
 
 ## Book, Chapters & Pages
-Things you may want to cover in this repository:
+How things work here:
 
-Each page of the book may (or may not) contain the all following resources:
+Each page of the book may (or may not) contain all of following resources:
 
 * HEAD
 
@@ -23,9 +20,13 @@ Each page of the book may (or may not) contain the all following resources:
 
 * /js
 
-* CDN resources if any via subREADme
+* CDN resources via head/body.
 
-More importantly, the style (CSS) on page no. --- is applicable to entire book whenever text takes over. Note the very little amount of CSS that is required!  
+Most importantly, the style (CSS) on page having scalable text is applicable to entire book whenever text takes over. Note the very little amount of CSS that is required!  
+
+## Additional reference:
+If you're into Codepen for front-end experiments then you might want to check out some of these [pieces](http://codepen.io/marvindanig/public/) too.
+
 
 ## Contributing
 
