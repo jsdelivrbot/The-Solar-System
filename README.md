@@ -2,7 +2,7 @@
 
 A quick and immersive journey through our Solar System with a soft primer on Gravitational Physics. Must read for aspiring astronomers, young star-gazers and all the little science enthusiasts out there. Learn how our planetary system works and how astronomy connects it all together! 
 
-
+If you're into Codepen for front-end experimentation then you might want to check out some of these [pieces](http://codepen.io/marvindanig/pen/GJqepZ) too.
 ## Book, Chapters & Pages
 Things you may want to cover in this repository:
 
