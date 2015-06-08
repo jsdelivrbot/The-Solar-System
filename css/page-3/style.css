@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow");
+body {
+  background: #ffe;
+  margin: 0 0;
+  overflow: hidden;
+  color: #444;
+  font: 5vw/1.2 "PT Sans Narrow", sans-serif;
+}
+
+.philosopher {
+  font-size: 3vw;
+}
+
+.leaf {
+  height: 100%;
+  height: 90vh;
+  width: 80%;
+  margin: auto;
+}
+
+.inner {
+  margin: 45% auto;
+  width: 100%;
+  text-align: center;
+}
+
+.flex {
+  display: -webkit-box;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.footnote {
+  text-align: center;
+  height: 20vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 2.5vw;
+}
