@@ -4,11 +4,11 @@ body {
   margin: 0 0;
   overflow: hidden;
   color: #444;
-  font: 5vw/1.1 "PT Sans Narrow", sans-serif;
+  font: 4vw/1.1 "PT Sans Narrow", sans-serif;
 }
 
 h1 {
-  font-size: 7vw;
+  font-size: 6vw;
 }
 
 a {
