@@ -4,12 +4,12 @@ body {
   margin: 0 0;
   overflow: hidden;
   color: #aaa;
-  font: 5vw/1.1 "PT Sans Narrow", sans-serif;
+  font: 4vw/1.1 "PT Sans Narrow", sans-serif;
   text-align: center;
 }
 
 h1 {
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 p {
@@ -53,7 +53,9 @@ p {
   border-radius: 50%;
   text-align: center;
   margin: 0 auto;
+  -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
+  -webkit-animation-direction: reverse;
   animation-direction: reverse;
   border: 2px dotted #fff;
 }
@@ -69,6 +71,7 @@ p {
   border: 4.5vw solid #666;
   border-radius: 50%;
   margin: auto;
+  -webkit-animation: spin 10s linear infinite;
   animation: spin 10s linear infinite;
 }
 
@@ -93,7 +96,9 @@ p {
   border-radius: 50%;
   text-align: center;
   margin: 0 auto;
+  -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
+  -webkit-animation-direction: reverse;
   animation-direction: reverse;
   border: 2px dotted #fff;
 }
@@ -109,6 +114,7 @@ p {
   border: 4.5vw solid #444;
   border-radius: 50%;
   margin: auto;
+  -webkit-animation: spin 20s linear infinite;
   animation: spin 20s linear infinite;
 }
 
@@ -133,7 +139,9 @@ p {
   border-radius: 50%;
   text-align: center;
   margin: 0 auto;
+  -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
+  -webkit-animation-direction: reverse;
   animation-direction: reverse;
   border: 2px dotted #fff;
 }
@@ -149,6 +157,7 @@ p {
   border: 4.5vw solid #543400;
   border-radius: 50%;
   margin: auto;
+  -webkit-animation: spin 30s linear infinite;
   animation: spin 30s linear infinite;
 }
 
@@ -163,6 +172,7 @@ p {
   border: 4.5vw solid #243434;
   border-radius: 50%;
   margin: auto;
+  -webkit-animation: spin 40s linear infinite;
   animation: spin 40s linear infinite;
 }
 
@@ -187,7 +197,9 @@ p {
   border-radius: 50%;
   text-align: center;
   margin: 0 auto;
+  -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
+  -webkit-animation-direction: reverse;
   animation-direction: reverse;
   border: 2px dotted #fff;
 }
@@ -203,6 +215,7 @@ p {
   border: 4.5vw solid #243400;
   border-radius: 50%;
   margin: auto;
+  -webkit-animation: spin 50s linear infinite;
   animation: spin 50s linear infinite;
 }
 
@@ -227,7 +240,9 @@ p {
   border-radius: 50%;
   text-align: center;
   margin: 0 auto;
+  -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
+  -webkit-animation-direction: reverse;
   animation-direction: reverse;
   border: 2px dotted #fff;
 }
@@ -243,6 +258,7 @@ p {
   border: 4.5vw solid #002434;
   border-radius: 50%;
   margin: auto;
+  -webkit-animation: spin 60s linear infinite;
   animation: spin 60s linear infinite;
 }
 
@@ -267,7 +283,9 @@ p {
   border-radius: 50%;
   text-align: center;
   margin: 0 auto;
+  -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
+  -webkit-animation-direction: reverse;
   animation-direction: reverse;
   border: 2px dotted #fff;
 }
@@ -283,6 +301,7 @@ p {
   border: 4.5vw solid #342434;
   border-radius: 50%;
   margin: auto;
+  -webkit-animation: spin 70s linear infinite;
   animation: spin 70s linear infinite;
 }
 
@@ -307,7 +326,9 @@ p {
   border-radius: 50%;
   text-align: center;
   margin: 0 auto;
+  -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
+  -webkit-animation-direction: reverse;
   animation-direction: reverse;
   border: 2px dotted #fff;
 }
@@ -323,9 +344,11 @@ p {
 
 @keyframes spin {
   0% {
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   100% {
+    -webkit-transform: rotate(-360deg);
     transform: rotate(-360deg);
   }
 }
