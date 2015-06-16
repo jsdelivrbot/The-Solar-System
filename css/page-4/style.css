@@ -4,7 +4,7 @@ body {
   margin: 0 0;
   overflow: hidden;
   color: #444;
-  font: 5vw/1.2 "PT Sans Narrow", sans-serif;
+  font: 4vw/1.2 "PT Sans Narrow", sans-serif;
 }
 
 .leaf {
@@ -22,8 +22,16 @@ body {
 
 .flex {
   display: -webkit-box;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
   display: flex !important;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
