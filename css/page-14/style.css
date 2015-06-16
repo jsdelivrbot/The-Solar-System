@@ -4,32 +4,13 @@ body {
   margin: 0 0;
   overflow: hidden;
   color: #444;
-  font: 5vw/1.2 "PT Sans Narrow", sans-serif;
-}
-
-a {
-  color: #3377ff;
-  outline: 0 none;
-  text-decoration: none;
-  text-rendering: optimizelegibility;
-}
-
-a:focus,
-a:active,
-a:hover {
-  outline: 0 none;
+  font: 4vw/1.1 "PT Sans Narrow", sans-serif;
 }
 
 .leaf {
-  height: 100%;
   height: 80vh;
-  width: 80%;
-  margin: auto;
-}
-
-.inner {
-  margin: 12% auto;
-  width: 100%;
+  width: 80vw;
+  margin: 10vh auto
 }
 
 .flex {
@@ -39,6 +20,109 @@ a:hover {
   justify-content: center;
 }
 
-.justify {
-  text-align: justify;
+h1 {
+  font-size: 8vw;
+  padding: 0 2vw 0 0;
+  margin: 0;
+}
+
+p {
+  padding: 2px;
+  margin: 0;
+}
+
+.inner {
+  margin: 50% auto;
+}
+
+@keyframes mapfront_spin {
+  0% {
+    background-position: 100vw 0%;
+  }
+  100% {
+    background-position: 0 0%;
+  }
+}
+
+@keyframes mapback_spin {
+  0% {
+    background-position: 0 0%;
+  }
+  100% {
+    background-position: 100vw 0%;
+  }
+}
+
+@-webkit-keyframes mapfront_spin {
+  0% {
+    background-position: 200vw 0%;
+  }
+  100% {
+    background-position: 0 0%;
+  }
+}
+
+@-webkit-keyframes mapback_spin {
+  0% {
+    background-position: 0 0%;
+  }
+  100% {
+    background-position: 200vw 0%;
+  }
+}
+
+.globe {
+  float: left;
+  position: relative;
+  height: 30vw;
+  width: 30vw;
+  margin: -7vw 0;
+}
+
+.front {
+  width: 30vw;
+  height: 30vw;
+  background: url(https://cdn.rawgit.com/bubblin/The-Solar-System/master/earth/images/SphereForeground.png);
+  background-size: cover;
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.back {
+  width: 30vw;
+  height: 30vw;
+  background: url(https://cdn.rawgit.com/bubblin/The-Solar-System/master/earth/images/SphereBackground.png);
+  z-index: 2;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mapfront,
+.mapback {
+  border-radius: 50%;
+  width: 24vw;
+  height: 26vw;
+  position: absolute;
+  top: 3vw;
+  left: 3vw;
+  z-index: 4;
+}
+
+.mapfront {
+  background: url(https://cdn.rawgit.com/bubblin/The-Solar-System/master/earth/images/CartoForeground.png) repeat-x;
+  background-size: cover;
+  -webkit-animation: mapfront_spin 15s linear infinite;
+  animation: mapfront_spin 15s linear infinite;
+}
+
+.mapback {
+  background: url(https://cdn.rawgit.com/bubblin/The-Solar-System/master/earth/images/CartoBackground.png) repeat-x;
+  background-size: cover;
+  position: absolute;
+  -webkit-animation: mapback_spin 15s linear infinite;
+  animation: mapback_spin 15s linear infinite;
 }
