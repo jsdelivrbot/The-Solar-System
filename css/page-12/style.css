@@ -4,7 +4,7 @@ body {
   margin: 0 0;
   overflow: hidden;
   color: #444;
-  font: 5vw/1.1 "PT Sans Narrow", sans-serif;
+  font: 4vw/1.1 "PT Sans Narrow", sans-serif;
 }
 
 h1 {
@@ -32,7 +32,7 @@ a:hover {
 }
 
 .inner {
-  margin: 11% auto;
+  margin: 12% auto;
   width: 100%;
 }
 
@@ -46,4 +46,3 @@ a:hover {
 .justify {
   text-align: justify;
 }
-
