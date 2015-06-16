@@ -338,7 +338,6 @@ ul.solarsystem li.pluto {
     -webkit-transform: rotate(-360deg)
   }
 }
-/*ul.solarsystem:hover li {-webkit-animation-play-state: paused;} */
 
 ul.solarsystem li.saturn span {
   background: #dfd3a9;
