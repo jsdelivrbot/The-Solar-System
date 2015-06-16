@@ -4,7 +4,7 @@ body {
   margin: 0 0;
   overflow: hidden;
   color: #444;
-  font: 5vw/1.2 "PT Sans Narrow", sans-serif;
+  font: 4vw/1.2 "PT Sans Narrow", sans-serif;
 }
 
 .philosopher {
@@ -26,9 +26,17 @@ body {
 
 .flex {
   display: -webkit-box;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
   display: flex !important;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footnote {
@@ -38,4 +46,29 @@ body {
   position: absolute;
   bottom: 0;
   font-size: 2.5vw;
+}
+
+blockquote {
+  background: transparent;
+  margin: 1vw 4vw;
+  padding: 0;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 6vw;
+  line-height: 0.1vw;
+  margin-right: 0.25vw;
+  vertical-align: -0.9vw;
+}
+
+blockquote:after {
+  color: #aaa;
+  content: close-quote;
+  font-size: 6vw;
+  line-height: 0.4vw;
+  margin-right: 0.5vw;
+  vertical-align: -0.9vw;
 }
