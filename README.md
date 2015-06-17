@@ -6,7 +6,7 @@ A quick and immersive journey through our Solar System with a soft primer on Gra
 ## Book, Chapters & Pages
 How things work here:
 
-Each page of the book may (or may not) contain all of following resources:
+Each page of the book (an iframe / webpage) may or may not have all of following four resources:
 
 * HEAD
 
@@ -15,12 +15,6 @@ Each page of the book may (or may not) contain all of following resources:
 * CSS
 
 * JS
-
-* /images
-
-* /js
-
-* CDN resources via head/body.
 
 Most importantly, the style (CSS) on page having scalable text is applicable to entire book whenever text takes over. Note the very little amount of CSS that is required!  
 
