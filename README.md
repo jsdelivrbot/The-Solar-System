@@ -1,12 +1,14 @@
 # The-Solar-System
 
-A quick and immersive journey through our Solar System with a soft primer on Gravitational Physics. Must read for aspiring astronomers, young star-gazers and all the little science enthusiasts out there. Learn how our planetary system works and how astronomy connects it all together! 
+A quick and immersive journey through our Solar System with a soft primer on Gravitational Physics. Must read for aspiring astronomers, young star-gazers and all the little science enthusiasts out there. 
+
+Learn how our planetary system works and how astronomy connects it all together! 
 
 
 ## Book, Chapters & Pages
 How things work here:
 
-Each page of the book (an iframe / webpage) may or may not have all of following four resources:
+Each page of the book (an iframe / webpage) may or may not have all of following  resources:
 
 * HEAD
 
@@ -16,25 +18,62 @@ Each page of the book (an iframe / webpage) may or may not have all of following
 
 * JS
 
-Testing directory structure.
-.
-+-- _config.yml
-+-- _drafts
-|   +-- begin-with-the-crazy-ideas.textile
-|   +-- on-simplicity-in-technology.markdown
-+-- _includes
-|   +-- footer.html
-|   +-- header.html
-+-- _layouts
-|   +-- default.html
-|   +-- post.html
-+-- _posts
-|   +-- 2007-10-29-why-every-programmer-should-play-nethack.textile
-|   +-- 2009-04-26-barcamp-boston-4-roundup.textile
-+-- _data
-|   +-- members.yml
-+-- _site
-+-- index.html
+Tree:
+
+```
+
+The-Solar-System/
+├── README.md
+├── css
+│   ├── page-1
+│   │   └── style.css
+│   ├── page-2
+│   │   └── style.css
+│   ├── page-3
+│   │   └── style.css
+│   ├── page-4
+│   │   └── style.css
+├── head
+│   ├── page-13
+│   │   └── head.html
+│   ├── page-17
+│   │   └── head.html
+│   ├── page-4
+│   │   └── head.html
+│   ├── page-6
+│   │   └── head.html
+│   ├── page-7
+│   │   └── head.html
+│   └── page-8
+│       └── head.html
+├── html
+│   ├── page-1
+│   │   └── body.html
+│   ├── page-2
+│   │   └── body.html
+│   ├── page-3
+│   │   └── body.html
+│   ├── page-4
+│   │   └── body.html
+├── images
+│   └── page-3
+│       └── bubblin-publishers-icon-96x96.png
+├── js
+│   ├── page-13
+│   │   └── script.js
+│   ├── page-17
+│   │   └── script.js
+│   ├── page-7
+│   │   └── script.js
+│   └── page-8
+│       └── script.js
+
+
+
+
+
+
+```
 
 
 ## How to use:
