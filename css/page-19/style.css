@@ -49,6 +49,7 @@ body {
   right: 0;
   bottom: 60.5vw;
   transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
   background-color: #f20;
 }
 
@@ -63,6 +64,7 @@ body {
   bottom: 0vw;
   background-color: #000;
   transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
   color: black;
 }
 
@@ -93,6 +95,8 @@ body {
   margin: 0 auto;
   animation: spin 2s linear infinite;
   animation-direction: reverse;
+  -webkit-animation: spin 2s linear infinite;
+  -webkit-animation-direction: reverse;
 }
 
 .orbit1 {
@@ -107,6 +111,7 @@ body {
   border-radius: 21vw;
   margin: auto;
   animation: spin 10s linear infinite;
+  -webkit-animation: spin 10s linear infinite;
 }
 
 @keyframes spin {
@@ -133,9 +138,10 @@ body {
   border-radius: 42vw;
   margin: auto;
   animation: spin 10s linear infinite;
+  -webkit-animation: spin 10s linear infinite;
 }
 
-@keyframes spin {
+@-webkit-keyframes spin {
   0% {
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
