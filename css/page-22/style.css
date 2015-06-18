@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow");
+body {
+  background: #fff;
+  margin: 0 0;
+  overflow: hidden;
+  color: #fff;
+  font: 5vw/1.1 "PT Sans Narrow", sans-serif;
+}
+
+.leaf {
+  height: 100vh;
+  width: 100vw;
+}
+
+.flex {
+  display: -webkit-box;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  position: absolute;
+  font-size: 6vw;
+  text-align: center;
+  width: 100vw;
+  top: 20vh;
+}
+
+.inner {
+  position: absolute;
+}
+
+canvas {
+  background: gray;
+  position: absolute;
+  left: 50%;
+  top: 45vh;
+  user-select: none;
+  z-index: -10;
+}
