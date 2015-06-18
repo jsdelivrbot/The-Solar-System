@@ -39,14 +39,6 @@ a:hover {
   justify-content: center;
 }
 
-.headnote {
-  text-align: center;
-  height: 20vh;
-  width: 100%;
-  position: absolute;
-  top: 0;
-}
-
 .justify {
   text-align: justify;
 }
