@@ -42,7 +42,7 @@ $(document).ready(function() {
 
     function createSphere(radius, segments) {
       return new THREE.Mesh(new THREE.SphereGeometry(radius, segments, segments), new THREE.MeshPhongMaterial({
-        map: THREE.ImageUtils.loadTexture(' https://cdn.rawgit.com/bubblin/The-Solar-System/master/earth/images/2_no_clouds_1k.jpg'),
+        map: THREE.ImageUtils.loadTexture(' https://cdn.rawgit.com/bubblin/The-Solar-System/master/images/page-17/earth/2_no_clouds_1k.jpg'),
         bumpMap: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/earth/images/elev_bump_1k.jpg'),
         bumpScale: 0.005,
         specularMap: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/earth/images/water_1k.png'),
