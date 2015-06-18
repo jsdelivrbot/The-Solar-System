@@ -3,58 +3,12 @@ The-Solar-System/
 ├── css
 │   ├── page-1
 │   │   └── style.css
-│   ├── page-10
-│   │   └── style.css
-│   ├── page-11
-│   │   └── style.css
-│   ├── page-12
-│   │   └── style.css
-│   ├── page-13
-│   │   └── style.css
-│   ├── page-14
-│   │   └── style.css
-│   ├── page-15
-│   │   └── style.css
-│   ├── page-16
-│   │   └── style.css
-│   ├── page-17
-│   │   └── style.css
-│   ├── page-18
-│   ├── page-19
 │   ├── page-2
 │   │   └── style.css
-│   ├── page-20
 │   ├── page-3
 │   │   └── style.css
 │   ├── page-4
 │   │   └── style.css
-│   ├── page-5
-│   │   └── style.css
-│   ├── page-6
-│   │   └── style.css
-│   ├── page-7
-│   │   └── style.css
-│   ├── page-8
-│   │   └── style.css
-│   └── page-9
-│       └── style.css
-├── earth
-│   └── images
-│       ├── 2_no_clouds_1k.jpg
-│       ├── 2_no_clouds_4k.jpg
-│       ├── CartoBackground.png
-│       ├── CartoForeground.png
-│       ├── SphereBackground.png
-│       ├── SphereForeground.png
-│       ├── elev_bump_1k.jpg
-│       ├── elev_bump_4k.jpg
-│       ├── fair_clouds_1k.png
-│       ├── fair_clouds_4k.png
-│       ├── polar-earth-antarctic.png
-│       ├── polar-earth-arctic.png
-│       ├── rotating_earth.jpg
-│       ├── water_1k.png
-│       └── water_4k.png
 ├── head
 │   ├── page-13
 │   │   └── head.html
@@ -71,41 +25,12 @@ The-Solar-System/
 ├── html
 │   ├── page-1
 │   │   └── body.html
-│   ├── page-10
-│   │   └── body.html
-│   ├── page-11
-│   │   └── body.html
-│   ├── page-12
-│   │   └── body.html
-│   ├── page-13
-│   │   └── body.html
-│   ├── page-14
-│   │   └── body.html
-│   ├── page-15
-│   │   └── body.html
-│   ├── page-16
-│   │   └── body.html
-│   ├── page-17
-│   │   └── body.html
-│   ├── page-18
-│   ├── page-19
 │   ├── page-2
 │   │   └── body.html
-│   ├── page-20
 │   ├── page-3
 │   │   └── body.html
 │   ├── page-4
 │   │   └── body.html
-│   ├── page-5
-│   │   └── body.html
-│   ├── page-6
-│   │   └── body.html
-│   ├── page-7
-│   │   └── body.html
-│   ├── page-8
-│   │   └── body.html
-│   └── page-9
-│       └── body.html
 ├── images
 │   └── page-3
 │       └── bubblin-publishers-icon-96x96.png
@@ -118,69 +43,5 @@ The-Solar-System/
 │   │   └── script.js
 │   └── page-8
 │       └── script.js
-├── jupiter
-│   ├── images
-│   │   ├── jupiter-ring-pattern.jpg
-│   │   ├── jupiter-rings.jpg
-│   │   ├── jupiter_rings.png
-│   │   ├── jupitermap.jpg
-│   │   ├── rings.png
-│   │   └── rings.psd
-│   └── js
-│       ├── detector.js
-│       ├── trackBallControls.js
-│       └── xRingGeometry.js
-├── mars
-│   └── images
-│       ├── mars.jpg
-│       ├── marsmap.jpg
-│       └── polar-ice.jpg
-├── mercury
-├── moon
-├── neptune
-│   └── images
-│       ├── neptuneRings.png
-│       ├── neptunemap.jpg
-│       └── rings.png
-├── pluto
-│   └── images
-│       └── plutomap1k.jpg
-├── saturn
-│   ├── head.html
-│   ├── images
-│   │   ├── Untitled-1.psd
-│   │   ├── Untitled-2.psd
-│   │   ├── ring.png
-│   │   ├── saturn-rings.jpg
-│   │   ├── saturn-rings.png
-│   │   ├── saturn-rings.psd
-│   │   ├── saturnRings.png
-│   │   ├── saturn_cassini.jpg
-│   │   └── saturnmap.jpg
-│   ├── javascript.js
-│   ├── markup.html
-│   └── style.css
-├── starfield
-│   └── images
-│       ├── galaxy_starfield.jpg
-│       ├── galaxy_starfield.png
-│       ├── galaxy_starfield_resized.jpg
-│       ├── galaxy_starfield_resized.png
-│       └── stars.jpg
-├── sun
-│   └── images
-│       ├── sun-texture.jpg
-│       ├── sun-texture.psd
-│       ├── sunmap.jpg
-│       └── texture.jpg
-├── uranus
-│   └── images
-│       ├── uranus-rings.png
-│       ├── uranusRings.png
-│       └── uranusmap.jpg
-└── venus
-    └── images
-        ├── venus.jpg
-        └── venusmap.jpg
 
 79 directories, 104 files
