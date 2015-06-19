@@ -50,11 +50,11 @@ p {
   -moz-animation: rotate 4s linear infinite;
   -ms-animation: rotate 4s linear infinite;
   -o-animation: rotate 4s linear infinite;
-  -webkit-transition: -webkit-transform 200ms linear;
+  -webkit-transition: -webkit-transform 300ms linear;
   -webkit-transform-style: preserve-3d;
-  -moz-transition: -moz-transform 200ms linear;
+  -moz-transition: -moz-transform 300ms linear;
   -moz-transform-style: preserve-3d;
-  transition: transform 200ms linear;
+  transition: transform 300ms linear;
   transform-style: preserve-3d;
   box-shadow: inset 1vw 0 5vw .1vw rgba(0, 0, 0, .5);
   -moz-box-shadow: inset 2vw 0 5vw .1vw rgba(0, 0, 0, .5);
