@@ -40,7 +40,7 @@ $(document).ready(function() {
       return new THREE.Mesh(new THREE.SphereGeometry(radius, segments, segments), new THREE.MeshPhongMaterial({
         map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/images/page-38/venus/venusmap.jpg'),
         bumpScale: 0.05,
-        specular: new THREE.Color('#222')
+        specular: new THREE.Color('#111')
       }));
     }
 
