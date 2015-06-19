@@ -38,7 +38,7 @@ $(document).ready(function() {
 
     function createSphere(radius, segments) {
       return new THREE.Mesh(new THREE.SphereGeometry(radius, segments, segments), new THREE.MeshPhongMaterial({
-        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/venus/images/venusmap.jpg'),
+        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/images/page-38/venus/venusmap.jpg'),
         bumpScale: 0.05,
         specular: new THREE.Color('#222')
       }));
@@ -46,7 +46,7 @@ $(document).ready(function() {
 
     function createStars(radius, segments) {
       return new THREE.Mesh(new THREE.SphereGeometry(radius, segments, segments), new THREE.MeshBasicMaterial({
-        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/starfield/images/galaxy_starfield.jpg'),
+        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/images/shared/galaxy_starfield.jpg'),
         side: THREE.BackSide
       }));
     }
