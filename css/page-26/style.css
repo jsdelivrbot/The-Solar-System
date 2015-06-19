@@ -28,7 +28,7 @@ a:hover {
 }
 
 .inner {
-  margin: 10% auto;
+  margin: 7% auto;
   width: 100%;
 }
 
@@ -57,10 +57,4 @@ p {
 blockquote {
   margin: 1vw 3vw;
   color: #555;
-}
-
-.small {
-  font-size: 2vw;
-  text-align: center;
-  margin: 1vw auto;
 }
