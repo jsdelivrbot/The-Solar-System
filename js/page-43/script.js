@@ -38,7 +38,7 @@ $(document).ready(function() {
 
     function createSphere(radius, segments) {
       return new THREE.Mesh(new THREE.SphereGeometry(radius, segments, segments), new THREE.MeshPhongMaterial({
-        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/images/page-43/images/marsmap.jpg'),
+        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/images/page-43/marsmap.jpg'),
         bumpScale: 0.05,
         specular: new THREE.Color('#190909')
       }));

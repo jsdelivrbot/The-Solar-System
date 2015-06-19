@@ -38,7 +38,7 @@ p {
 #earth {
   width: 15vw;
   height: 15vw;
-  background: url(https://raw.githubusercontent.com/marvindanig/Images/master/mars/red_mars_map.jpg) 0 0 repeat;
+  background: url('https://raw.githubusercontent.com/bubblin/The-Solar-System/master/images/page-43/marsmap.jpg') 0 0 repeat;
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
