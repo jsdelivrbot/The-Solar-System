@@ -61,7 +61,7 @@ p {
   background-color: #0072f9;
   border: 1px solid #47aaff;
   box-shadow: 0 0 10vw #47aaff;
-  background-image: url('https://raw.githubusercontent.com/marvindanig/Images/master/Earth/polar-earth-arctic.png ');
+  background-image: url('https://raw.githubusercontent.com/bubblin/The-Solar-System/master/images/page-30/polar-earth-arctic.png');
   background-size: cover;
 }
 
@@ -83,7 +83,7 @@ p {
   padding: 0;
   /* animation: spin 40s linear infinite; animation-direction: reverse;*/
   
-  background-image: url('https://raw.githubusercontent.com/marvindanig/Images/master/moon/moon_trans.png');
+  background-image: url('https://raw.githubusercontent.com/bubblin/The-Solar-System/master/images/page-30/moon_trans.png');
   background-size: cover;
 }
 
