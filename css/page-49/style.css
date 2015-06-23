@@ -22,13 +22,9 @@ body {
 
 h1 {
   font-size: 8vw;
-  padding: 0 2vw 0 0;
+  padding: 12vw 4vw 12vw 0;
   margin: 0;
-}
-
-p {
-  padding: 2px;
-  margin: 0;
+  
 }
 
 .inner {
@@ -91,7 +87,7 @@ p {
   height: 100%;
   top: 0;
   left: 0;
-  opacity: 0.2;
+  opacity: 0.4;
   background: radial-gradient(circle at 10vw 10vw, #fff, #000);
 }
 
