@@ -70,8 +70,8 @@ h1 {
   -webkit-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  box-shadow: -1vw 1.5vw 8vw 0vw rgba(250, 0, 0, .9) inset;
-  -moz-box-shadow: -1vw 1.5vw 8vw 0vw rgba(250, 0, 0, .9) inset;
+  box-shadow: -1vw 1.5vw 8vw 0vw rgba(0, 0, 0, .9) inset;
+  -moz-box-shadow: -1vw 1.5vw 8vw 0vw rgba(0, 0, 0, .9) inset;
   -webkit-box-shadow: -1vw 1.5vw 8vw 0vw rgba(0, 0, 0, .9) inset;
 }
 
@@ -107,7 +107,7 @@ h1 {
   0% {
     background-position: 0 0;
   }
-  50% {
+  100% {
     background-position: 50% 0;
   }
 }
