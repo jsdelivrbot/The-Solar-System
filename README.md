@@ -5,10 +5,10 @@ A quick and immersive journey through our Solar System with a soft primer on Gra
 Learn how our planetary system works and how astronomy connects it all together! 
 
 
-## Book, Chapters & Pages
+## The Book - Chapters & Pages
 How things work here:
 
-Each page of the book (an iframe / webpage) may or may not have all of following  resources:
+Each page of the book is an iframe (full score webpage) that may or may not have all of following resources:
 
 * HEAD
 
@@ -17,6 +17,8 @@ Each page of the book (an iframe / webpage) may or may not have all of following
 * CSS
 
 * JS
+
+Each directory has pages of the book with requisite HTML, CSS, HEAD and JavaScript. The following tree describes the project structure mostly:
 
 Tree:
 
@@ -34,10 +36,6 @@ The-Solar-System/
 │   ├── page-4
 │   │   └── style.css
 ├── head
-│   ├── page-13
-│   │   └── head.html
-│   ├── page-17
-│   │   └── head.html
 │   ├── page-4
 │   │   └── head.html
 │   ├── page-6
@@ -79,7 +77,7 @@ The-Solar-System/
 
 ## How to use:
 
-Most importantly, the style (CSS) on page having scalable text is applicable to entire book whenever text takes over. Note the very little amount of CSS that is required!  
+Feel free to use any of the code or context for your own project. Most likely you're gonna need the CSS (style) to scale text across mobile, tablets and desktop. Observe the very small amount CSS that is required!  
 
 ## Additional reference:
 If you're into Codepen for front-end experiments then you might want to check out some of these [pieces](http://codepen.io/marvindanig/public/) too.
@@ -87,11 +85,11 @@ If you're into Codepen for front-end experiments then you might want to check ou
 
 ## Contributing
 
-Feel free to contribute in about Space & Astronomy that you think will befit this Superbook.
+Feel free to contribute to this book too. It's an ever expanding book with anything interesting about Science, Space and Astronomy that you can befit the scope of Superbook.
 
 1. Fork it ( https://github.com/bubblin/The-Solar-System/fork )
 2. Create your feature branch (`git checkout -b my-new-page`)
-3. Commit your changes (`git commit -am 'Add a page on (/topic)'`)
+3. Commit your changes (`git commit -am 'Added a page on (/topic)'`)
 4. Push to the branch (`git push origin my-new-page`)
 5. Create a new Pull Request
 6. <a href = "mailto:marvin@bubbl.in">Contact me</a> if I don't respond within 24 hours.
