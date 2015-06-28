@@ -18,7 +18,7 @@ $(document).ready(function() {
     camera.position.x = 1;
     var renderer = new THREE.WebGLRenderer();
     renderer.setSize(width, height);
-    scene.add(new THREE.AmbientLight(0x333353));
+    scene.add(new THREE.AmbientLight(0x333320));
     var light = new THREE.DirectionalLight(0xffffff, .5);
     light.position.set(1, -3, 1);
     scene.add(light);
@@ -44,7 +44,7 @@ $(document).ready(function() {
 
     function createSphere(radius, segments) {
       return new THREE.Mesh(new THREE.SphereGeometry(radius, segments, segments), new THREE.MeshPhongMaterial({
-        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/uranus/images/uranusmap.jpg'),
+        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/images/page-65/uranus.jpg'),
         bumpScale: 0.05,
         specular: new THREE.Color('#010501')
       }));
@@ -52,7 +52,7 @@ $(document).ready(function() {
 
     function createRings(radius, segments) {
       return new THREE.Mesh(new THREE.XRingGeometry(1.2 * radius, 1.8 * radius, 2 * segments, 5, 0, Math.PI * 2), new THREE.MeshBasicMaterial({
-        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/uranus/images/uranusRings.png'),
+        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/images/page-65/uranusRings.png'),
         side: THREE.DoubleSide,
         transparent: true,
         opacity: 0.2
