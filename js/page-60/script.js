@@ -44,7 +44,7 @@ $(document).on('ready', function() {
 
     function createSphere(radius, segments) {
       return new THREE.Mesh(new THREE.SphereGeometry(radius, segments, segments), new THREE.MeshPhongMaterial({
-        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/saturn/images/saturnmap.jpg'),
+        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/images/page-60/saturnmap.jpg'),
         bumpScale: 0.05,
         specular: new THREE.Color('#190909')
       }));
@@ -52,7 +52,7 @@ $(document).on('ready', function() {
 
     function createRings(radius, segments) {
       return new THREE.Mesh(new THREE.XRingGeometry(1.2 * radius, 2 * radius, 2 * segments, 5, 0, Math.PI * 2), new THREE.MeshBasicMaterial({
-        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/saturn/images/saturn-rings.png'),
+        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/images/page-60/saturn-rings.png'),
         side: THREE.DoubleSide,
         transparent: true,
         opacity: 0.6
