@@ -4,7 +4,7 @@ body {
   margin: 0 0;
   overflow: hidden;
   color: #444;
-  font: 3.5vw/1.05 "PT Sans Narrow", sans-serif;
+  font: 3vw/1.05 "PT Sans Narrow", sans-serif;
 }
 
 h1 {
@@ -27,16 +27,8 @@ h1 {
 
 .flex {
   display: -webkit-box;
-  display: -webkit-flex !important;
-  display: -ms-flexbox !important;
   display: flex !important;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -58,8 +50,12 @@ a {
   clear: both;
   text-decoration: none;
   color: #333;
-  margin: .2vw 0;
-  padding: .75vw 5%;
+  margin: .1vw 0;
+  padding: .5vw 5%;
+  -webkit-border-radius: 1vw;
+  -moz-border-radius: 1vw;
+  -o-border-radius: 1vw;
+  -ms-border-radius: 1vw;
   border-radius: 1vw;
 }
 
