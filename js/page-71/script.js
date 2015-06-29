@@ -44,7 +44,7 @@ $(document).ready(function() {
 
     function createSphere(radius, segments) {
       return new THREE.Mesh(new THREE.SphereGeometry(radius, segments, segments), new THREE.MeshPhongMaterial({
-        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/neptune/images/neptunemap.jpg'),
+        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/images/page-71/neptunemap.jpg'),
         bumpScale: 0.05,
         specular: new THREE.Color('#003959')
       }));
@@ -52,7 +52,7 @@ $(document).ready(function() {
 
     function createRings(radius, segments) {
       return new THREE.Mesh(new THREE.XRingGeometry(1.7 * radius, 2 * radius, 2 * segments, 5, 0, Math.PI * 2), new THREE.MeshBasicMaterial({
-        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/neptune/images/rings.png'),
+        map: THREE.ImageUtils.loadTexture('https://cdn.rawgit.com/bubblin/The-Solar-System/master/images/page-71/rings.png'),
         side: THREE.DoubleSide,
         transparent: true,
         opacity: 0.2
