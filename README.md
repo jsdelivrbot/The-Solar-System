@@ -2,18 +2,23 @@
 
 A quick and immersive journey through our Solar System with a soft primer on Gravitational Physics. Must read for aspiring astronomers, young star-gazers and all the little science enthusiasts out there. 
 
-Learn how our planetary system works and how astronomy connects it all together! 
+Learn how our planetary system works, what it's like in space and how astronomy connects all pieces of science together! 
 
 ## A Quick Tutorial:
-If you've been on Codepen for front-end experiments then you will find writing superbooks *super easy*. Check out some of the [demos](http://codepen.io/marvindanig/public/) that we did there and are now a part of this book.
+If you've been on Codepen for front-end experiments then you'll surely find writing superbooks *super easy*. Check out some of the [demos](http://codepen.io/marvindanig/public/) that we did up there that are now a part of this book.
 
-**Feel free to use any of the code from Github or Codepen for your own project. 
+*Feel free to use any of the code from Github or Codepen for your own project.*
 
+### Tut-1 
 It's very likely that you're going to need [CSS](https://github.com/bubblin/The-Solar-System/blob/master/css/page-9/style.css) that scales the text in a page across mobile, tablets and desktop. This is in use on [page-9](https://bubbl.in/book/the-solar-system-by-marvin-danig/9) of the book. 
 
 
 Observe we're using vw or `viewport width` to handle the size of the text within the book. Also note the very little CSS that is required!
 
+### Tut-2
+Adding images is one of the simplest task on bubblin. Set `src` attribute to the correct path for your `<img>` tag and give it 100% width. You're all set. 
+
+Note: All assets on Bubblin are served over https. Make sure your host returns a secured url for the image you wish to add to your book. 
 
 
 ## The Project: Pages & Their Resources:
