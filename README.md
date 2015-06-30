@@ -73,10 +73,9 @@ The-Solar-System/
 ```
 
 
-## How to use:
+## A Quick Tutorial:
 If you've been on Codepen for front-end experiments then you will find writing superbooks super easy. Check out some of the [demos](http://codepen.io/marvindanig/public/) there that went on to become a part of this book.
 
-## A Quick Tutorial:
 Feel free to use any of the code or context for your own project. 
 
 It is very likely that you're gonna need the appropriate CSS rules that scale the text across mobile, tablets and desktop. Observe the very small amount CSS that is required!  
