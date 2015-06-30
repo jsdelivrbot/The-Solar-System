@@ -66,8 +66,7 @@ The-Solar-System/
 │   └── page-8
 │       └── script.js
 
-208 directories, 202 files
-
+218 directories, 235 files
 
 
 
@@ -75,16 +74,17 @@ The-Solar-System/
 
 
 ## How to use:
+If you've been on Codepen for front-end experiments then you will find writing superbooks super easy. Check out some of the [demos](http://codepen.io/marvindanig/public/) there that went on to become a part of this book.
 
-Feel free to use any of the code or context for your own project. Most likely you're gonna need the CSS (style) to scale text across mobile, tablets and desktop. Observe the very small amount CSS that is required!  
+## A Quick Tutorial:
+Feel free to use any of the code or context for your own project. 
 
-## Additional reference:
-If you're into Codepen for front-end experiments then you might want to check out some of these [pieces](http://codepen.io/marvindanig/public/) too.
+It is very likely that you're gonna need the appropriate CSS rules that scale the text across mobile, tablets and desktop. Observe the very small amount CSS that is required!  
 
 
 ## Contributing
 
-Feel free to contribute to this book too. It's an ever expanding book with anything interesting about Science, Space and Astronomy that you can befit the scope of Superbook.
+Feel free to contribute, fix or improve code of this book. Astronomy is a never ending field, and any piece of knowelegde or visual or scientific explanation ismore than welcome from you.
 
 1. Fork it ( https://github.com/bubblin/The-Solar-System/fork )
 2. Create your feature branch (`git checkout -b my-new-page`)
