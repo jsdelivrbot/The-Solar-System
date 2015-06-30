@@ -4,8 +4,19 @@ A quick and immersive journey through our Solar System with a soft primer on Gra
 
 Learn how our planetary system works and how astronomy connects it all together! 
 
+## A Quick Tutorial:
+If you've been on Codepen for front-end experiments then you will find writing superbooks *super easy*. Check out some of the [demos](http://codepen.io/marvindanig/public/) that we did there and are now a part of this book.
 
-## The Book - Chapters & Pages
+**Feel free to use any of the code from Github or Codepen for your own project. 
+
+It's very likely that you're going to need CSS/Style rules that scale text of a page across mobile, tablets and desktop. So let's start with [CSS](https://github.com/bubblin/The-Solar-System/blob/master/css/page-9/style.css) of [page-9](https://bubbl.in/book/the-solar-system-by-marvin-danig/9) of the book. 
+
+
+Observe we're using vw or `viewport width` to handle the size of the text within the book. Also note the very little CSS that is required!
+
+  
+
+## The Project: Pages & Their Resources:
 How things work here:
 
 Each page of the book is an iframe (full score webpage) that may or may not have all of following resources:
@@ -71,14 +82,6 @@ The-Solar-System/
 
 
 ```
-
-
-## A Quick Tutorial:
-If you've been on Codepen for front-end experiments then you will find writing superbooks super easy. Check out some of the [demos](http://codepen.io/marvindanig/public/) there that went on to become a part of this book.
-
-Feel free to use any of the code or context for your own project. 
-
-It is very likely that you're gonna need the appropriate CSS rules that scale the text across mobile, tablets and desktop. Observe the very small amount CSS that is required!  
 
 
 ## Contributing
