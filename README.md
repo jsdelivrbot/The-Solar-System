@@ -9,12 +9,12 @@ If you've been on Codepen for front-end experiments then you will find writing s
 
 **Feel free to use any of the code from Github or Codepen for your own project. 
 
-It's very likely that you're going to need CSS/Style rules that scale text of a page across mobile, tablets and desktop. So let's start with [CSS](https://github.com/bubblin/The-Solar-System/blob/master/css/page-9/style.css) of [page-9](https://bubbl.in/book/the-solar-system-by-marvin-danig/9) of the book. 
+It's very likely that you're going to need [CSS](https://github.com/bubblin/The-Solar-System/blob/master/css/page-9/style.css) that scales the text in a page across mobile, tablets and desktop. This is in use on [page-9](https://bubbl.in/book/the-solar-system-by-marvin-danig/9) of the book. 
 
 
 Observe we're using vw or `viewport width` to handle the size of the text within the book. Also note the very little CSS that is required!
 
-  
+
 
 ## The Project: Pages & Their Resources:
 How things work here:
