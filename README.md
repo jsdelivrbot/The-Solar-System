@@ -21,16 +21,13 @@ Adding image to a page is very simple. Set `src` attribute to the correct path u
 Note: Bubblin is forced over https. Make sure your resource provider returns a secured url for the assets you wish to add into your book. You can also use Github to host images of your book if you like.
 
 #### Tut-3
-JavaScript libraries can be flexibly [added inside a page via the `HEAD`](https://medium.com/bubblin-superbooks/head-72e72d772a8c). Or you can put them inside `BODY`of your HTML that gets added to the ifrane. Whatever works for you! 
+JavaScript libraries can be flexibly [added inside a page via the `HEAD`](https://medium.com/bubblin-superbooks/head-72e72d772a8c). Or you can put them inside `BODY`of your HTML too. Whatever works for you! 
 
-Note you can also use serve code into your book via [Github with proper CONTENT-TYPE headers](https://rawgit.com/).    
-
+Note you can also use serve code into your book via [Github with proper CONTENT-TYPE headers](https://rawgit.com/). This is particularly useful if you want the sourcecode of your book to be available to the community. 
 
 
 ## The Project
-This is how things work on a Superbook:
-
-Each page of the book is an iframe (a full bleed webpage) that may or may not have all of following resources:
+Each page of the book is an `iframe` (a full bleed webpage) that may or may not have something on all of the following FIVE resources:
 
 * HEAD
 
@@ -42,9 +39,9 @@ Each page of the book is an iframe (a full bleed webpage) that may or may not ha
 
 * IMAGES
 
-Each directory above has sub-drectories for the pages of the book containing partials of HTML, CSS, HEAD and JavaScript in 'em.
+Each directory above has a sub-directory corresponding to a page of the book. This sub-directory usually contains a partial of HTML, CSS, HEAD or JavaScript that is called at the time of `iframe` render.
 
-TREE STRUCTURE:
+This is what TREE of this project looks like:
 
 ```
 
@@ -95,10 +92,9 @@ The-Solar-System/
 
 ```
 
-
 ## Contributing
 
-Feel free to contribute, fix or improve code of this book. Astronomy is a never ending field, and any piece of knowelegde or visual or scientific explanation ismore than welcome from you.
+Feel free to contribute, fix or help improve code of this book. Astronomy is a never ending field, therefore, any piece of information or knowledge or visual or  explanation is  simply more than welcome.
 
 1. Fork it ( https://github.com/bubblin/The-Solar-System/fork )
 2. Create your feature branch (`git checkout -b my-new-page`)
