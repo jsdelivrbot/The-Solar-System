@@ -1,16 +1,22 @@
 # The-Solar-System
 
-A quick and immersive journey through our Solar System with a soft primer on Gravitational Physics. Must read for aspiring astronomers, young star-gazers and all the little science enthusiasts out there. 
+A quick and immersive journey through our Solar System with a soft primer on Gravitational Physics. Must read for aspiring astronomers, star-gazers and   science enthusiasts of all ages out there. 
 
 Learn how our planetary system works, what it's like in space and how astronomy connects all pieces of science together! 
 
 ## A Quick Tutorial:
-If you've been on Codepen for front-end experiments then you'll surely find writing superbooks *super easy*. Check out some of the [demos](http://codepen.io/marvindanig/public/) that we did there that are now a part of this book.
+It is utter simple to write a book on bubblin. Each page of the book is effectively a webpage (an iframe) that holds your HTML, CSS, JavaScript and external resources (Like jQuery over CDN) together to render a page. It is *sandboxed* by default.
+
+If you've been on Codepen before you'll find writing superbooks *super easy*. Check out some of the [demos](http://codepen.io/marvindanig/public/) that we did there that are now a part of this book.
 
 *Feel free to use any of the code from Github or Codepen for your own project.*
 
+
+Note: you'll require at least working knowledge of HTML, CSS and JavaScript to be able to compose pages of your book on Bubblin. If you're completely new to frontend development you might want to quickly [grab the basics](http://www.codecademy.com/en/tracks/web) now. 
+
+
 #### Tut-1 
-It's very likely that you'll need [CSS](https://github.com/bubblin/The-Solar-System/blob/master/css/page-9/style.css) that scales the text of a page across mobile, tablets and desktop. See [page-9](https://bubbl.in/book/the-solar-system-by-marvin-danig/9) of the book, for example. 
+It's very likely that you'll need default [styles](https://github.com/bubblin/The-Solar-System/blob/master/css/page-9/style.css) to scale text of a page across multiple devices - a.k.a. mobile, tablets and desktops. Try viewing [page-9](https://bubbl.in/book/the-solar-system-by-marvin-danig/9) of the book on your iPhone, iPad and Desktop, for example. 
 
 
 Observe that we're using `VW` or `viewport width` to scale the text here. Also  the very little amount CSS that is required! :-)
@@ -52,16 +58,12 @@ The-Solar-System/
 │   │   └── style.css
 │   ├── page-2
 │   │   └── style.css
-│   ├── page-3
-│   │   └── style.css
-│   ├── page-4
-│   │   └── style.css
+│   └── page-8
+│       └── style.css
 ├── head
 │   ├── page-4
 │   │   └── head.html
 │   ├── page-6
-│   │   └── head.html
-│   ├── page-7
 │   │   └── head.html
 │   └── page-8
 │       └── head.html
@@ -70,10 +72,8 @@ The-Solar-System/
 │   │   └── body.html
 │   ├── page-2
 │   │   └── body.html
-│   ├── page-3
-│   │   └── body.html
-│   ├── page-4
-│   │   └── body.html
+│   └── page-8
+│       └── body.html
 ├── images
 │   └── page-3
 │       └── bubblin-publishers-icon-96x96.png
@@ -81,8 +81,6 @@ The-Solar-System/
 │   ├── page-13
 │   │   └── script.js
 │   ├── page-17
-│   │   └── script.js
-│   ├── page-7
 │   │   └── script.js
 │   └── page-8
 │       └── script.js
