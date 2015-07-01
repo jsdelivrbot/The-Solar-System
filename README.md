@@ -21,9 +21,9 @@ Adding image to a page is very simple. Set `src` attribute to the correct path u
 Note: Bubblin is forced over https. Make sure your resource provider returns a secured url for the assets you wish to add into your book. You can also use Github to host images of your book if you like.
 
 #### Tut-3
-JavaScript libraries can be flexibly (added inside a page via the `HEAD`)[https://medium.com/bubblin-superbooks/head-72e72d772a8c]. Or you can put them inside `BODY`of your HTML that gets added to the ifrane. Whatever works for you! 
+JavaScript libraries can be flexibly [added inside a page via the `HEAD`](https://medium.com/bubblin-superbooks/head-72e72d772a8c). Or you can put them inside `BODY`of your HTML that gets added to the ifrane. Whatever works for you! 
 
-Note you can also use serve code into your book via (Github with proper CONTENT-TYPE headers)[https://rawgit.com/].    
+Note you can also use serve code into your book via [Github with proper CONTENT-TYPE headers](https://rawgit.com/).    
 
 
 
