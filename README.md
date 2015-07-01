@@ -5,26 +5,34 @@ A quick and immersive journey through our Solar System with a soft primer on Gra
 Learn how our planetary system works, what it's like in space and how astronomy connects all pieces of science together! 
 
 ## A Quick Tutorial:
-If you've been on Codepen for front-end experiments then you'll surely find writing superbooks *super easy*. Check out some of the [demos](http://codepen.io/marvindanig/public/) that we did up there that are now a part of this book.
+If you've been on Codepen for front-end experiments then you'll surely find writing superbooks *super easy*. Check out some of the [demos](http://codepen.io/marvindanig/public/) that we did there that are now a part of this book.
 
 *Feel free to use any of the code from Github or Codepen for your own project.*
 
-### Tut-1 
-It's very likely that you're going to need [CSS](https://github.com/bubblin/The-Solar-System/blob/master/css/page-9/style.css) that scales the text in a page across mobile, tablets and desktop. This is in use on [page-9](https://bubbl.in/book/the-solar-system-by-marvin-danig/9) of the book. 
+#### Tut-1 
+It's very likely that you'll need [CSS](https://github.com/bubblin/The-Solar-System/blob/master/css/page-9/style.css) that scales the text of a page across mobile, tablets and desktop. Scalable text is in use on [page-9](https://bubbl.in/book/the-solar-system-by-marvin-danig/9) of the book, for example.  
 
 
-Observe we're using vw or `viewport width` to handle the size of the text within the book. Also note the very little CSS that is required!
+Observe that we're using `VW` or `viewport width` to scale text of a page. Also  the very little amount CSS that is required! :-)
 
-### Tut-2
-Adding images is one of the simplest task on bubblin. Set `src` attribute to the correct path for your `<img>` tag and give it 100% width. You're all set. 
+#### Tut-2
+Adding image to a page is very simple. Set `src` attribute to the correct path under https, and give the `<img>` tag a `width = 100%`. You're all set. 
 
-Note: All assets on Bubblin are served over https. Make sure your host returns a secured url for the image you wish to add to your book. 
+Note: Bubblin is forced over https for secure connections mandatorily. Make sure your provider returns a secured url for the resources you wish to add into your book. 
+
+You can also use Github to host your book and its resources(like images!).
+
+#### Tut-3
+JavaScript libraries can be flexibly added inside a page via `HEAD` or html `BODY` of the ifrane. Ideally, you'd want to serve all external resources via the `HEAD` over a secured `https` url, but you can definitely choose to put them inside the <body> of the resultant HTML. Whatever works for you! 
+
+We love to use https://cdnjs.com to serve libraries inside our own books via CDN. But you can use any of the services out there or host via Github.    
 
 
-## The Project: Pages & Their Resources:
-How things work here:
 
-Each page of the book is an iframe (full score webpage) that may or may not have all of following resources:
+## The Project
+This is how things work on a Superbook:
+
+Each page of the book is an iframe (a full bleed webpage) that may or may not have all of following resources:
 
 * HEAD
 
@@ -34,9 +42,11 @@ Each page of the book is an iframe (full score webpage) that may or may not have
 
 * JS
 
-Each directory has pages of the book with requisite HTML, CSS, HEAD and JavaScript. The following tree describes the project structure mostly:
+* IMAGES
 
-Tree:
+Each directory above has sub-drectories for the pages of the book containing partials of HTML, CSS, HEAD and JavaScript in 'em.
+
+TREE STRUCTURE:
 
 ```
 
@@ -83,7 +93,6 @@ The-Solar-System/
 │       └── script.js
 
 218 directories, 235 files
-
 
 
 ```
