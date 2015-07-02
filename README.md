@@ -22,12 +22,13 @@ First things first. It's very likely that you'll need the default [style](https:
 Observe that we're using `VW` or `viewport width` here to scale the text. Also  noteworthy is the very little amount CSS that is required for textbooks! :-)
 
 #### Tut-2
-Adding an image is very simple on bubblin. In fact a whole set of designer magazines are possible with full-bleed visuals and silky smooth interactivity simply by using a little HTML (<img> tag) and minimal CSS. 
+Adding an image is very simple on bubblin. In fact a whole set of designer magazines are possible with full-bleed visuals and silky smooth interaction simply by using a little HTML (The `<img>` tag) and minimal CSS. 
 
-Update `src` attribute with the correct path of image under https, and give the `<img>` tag a `width` of 100%. You're all set. 
+Update the `src` attribute with the correct path of image under https, and give the `<img>` tag a `width` of 100%. You're all set. 
 
-Note: Bubblin is forced over https. Make sure your resource provider returns a secured url for the assets you wish to add into your book. 
-
+```
+Note: Bubblin is forced over https. 
+```
 #### Tut-3
 JavaScript libraries can be flexibly [added inside a page via the `HEAD`](https://medium.com/bubblin-superbooks/head-72e72d772a8c). Or you can put them inside `BODY`of your HTML too. Whatever works for you! 
 
