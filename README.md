@@ -7,23 +7,22 @@ Learn how our planetary system works, what it's like in space and how astronomy 
 ## A Quick Tutorial:
 It's dead simple to write a superbook on bubblin. 
 
-Each page of the book is a virgin webpage (an iframe) that holds your HTML, CSS, JavaScript and external resources (Like jQuery over CDN) together. The iframe is *sandboxed* by default.
+Each page of the book is a virgin webpage (an iframe) that holds your HTML, CSS and JavaScript (and external resources over CDN) together. The iframe is sandboxed by default.
 
-If you've been on Codepen before you'll find writing superbook *super easy*. Check out some of the [demos](http://codepen.io/marvindanig/public/) that we did there that are now a part of this book.
+If you've been on Codepen before you'll find writing superbook SUPER EASY. Check out some of the [demos](http://codepen.io/marvindanig/public/) that we did there that are now a part of this book.
 
-*Feel free to use any of the code from Github or Codepen for your own project.*
+Feel *FREE* to use any of the code from Github or Codepen for your own project.
 
 
 Note: You'll require at least working knowledge of HTML, CSS and JavaScript to be able to compose pages of your book on Bubblin. If you're completely new to frontend development you might want to quickly [grab the basics](http://www.codecademy.com/en/tracks/web) now. 
 
 #### Tut-1 
-At minimum, it's likely that you'll need the default [style](https://github.com/bubblin/The-Solar-System/blob/master/css/page-9/style.css) to scale your text across multiple devices - a.k.a. mobile, tablets and desktops. Open [page-9](https://bubbl.in/book/the-solar-system-by-marvin-danig/9) of the book on your iPhone, iPad or the Desktop, for example. The fonts should scale as expected.
+First things first. It's very likely that you'll need the default [style](https://github.com/bubblin/The-Solar-System/blob/master/css/page-9/style.css) to scale text across multiple devices - a.k.a. mobile, tablets and desktops. Open [page-9](https://bubbl.in/book/the-solar-system-by-marvin-danig/9) of the book on your iPhone, iPad or the Desktop to see what this means, for example. 
 
-
-Observe that we're using `VW` or `viewport width` to scale the text here. Also  the very little amount CSS that is required! :-)
+Observe that we're using `VW` or `viewport width` here to scale the text. Also  noteworthy is the very little amount CSS that is required for textbooks! :-)
 
 #### Tut-2
-Adding image to a page is very simple. Set `src` attribute to the correct path under https, and give `<img>` tag a `width = 100%`. You're all set. 
+Adding an image is very simple on bubblin. Infact a whole set of fashion magazines with full-bleed visuals are possible by using just a little HTML (<img> tag) and very little CSS. Update `src` attribute with the correct path under https, and give `<img>` tag a `width = 100%`. You're all set. 
 
 Note: Bubblin is forced over https. Make sure your resource provider returns a secured url for the assets you wish to add into your book. You can also use Github to host images of your book if you like.
 
