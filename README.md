@@ -30,7 +30,7 @@ Update the `src` attribute with the correct path of image under https, and give 
 Note: Bubblin is forced over https. 
 ```
 #### Tut-3
-JavaScript libraries can be flexibly [added inside a page via the `HEAD`](https://medium.com/bubblin-superbooks/head-72e72d772a8c). Or you can put them inside `BODY`of your HTML too. Whatever works for you! 
+JavaScript libraries can be flexibly [added via the `HEAD`](https://medium.com/bubblin-superbooks/head-72e72d772a8c) of iframe. Or you can wrap them inside `BODY`of your HTML too; whatever works for you! 
 
 Note you can also use serve code into your book via [Github with proper CONTENT-TYPE headers](https://rawgit.com/). This is particularly useful if you want the sourcecode of your book to be available to the community. 
 
