@@ -92,6 +92,11 @@ The-Solar-System/
 
 
 ```
+## TODOs:
+List of things I have to do and would appreciate immediate help on:
+
+1. Add tilt to Earth's rotational axis and depict seasons.
+2. 
 
 ## Contributing
 
