@@ -95,8 +95,9 @@ The-Solar-System/
 ## TODOs:
 List of things I have to do and would appreciate immediate help on:
 
-1. Add tilt to Earth's rotational axis and depict seasons.
-2. 
+1. Add a ellipical orbit depicting equal areas covered by an orbiting planet anywhere in aphelion and perihelion. Between page 11-12.
+2. Add tilt to Earth's rotational axis and depict seasons. Between page 14-15.
+3. Add an experiment to show differential fluid flow of Sun. Between page 24-25.
 
 ## Contributing
 
