@@ -98,6 +98,9 @@ List of things I have to do and would appreciate immediate help on:
 1. Add a ellipical orbit depicting equal areas covered by an orbiting planet anywhere in aphelion and perihelion. Between page 11-12.
 2. Add tilt to Earth's rotational axis and depict seasons. Between page 14-15.
 3. Add an experiment to show differential fluid flow of Sun. Between page 24-25.
+4. Add switch to toggle synchronous and asynchronous rotation of Moon. Page 30-31.
+5. Demonstrate morning/evening star situations relative to Earth. Page 38-39.
+6. Demonstrate the gap between Mars and Jupiter. Page 51-52.
 
 ## Contributing
 
