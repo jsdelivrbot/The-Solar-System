@@ -93,14 +93,16 @@ The-Solar-System/
 
 ```
 ## TODOs:
-List of things I have to do and would appreciate immediate help on:
+List of things to probably do (and would appreciate immediate help on):
 
-1. Add a ellipical orbit depicting equal areas covered by an orbiting planet anywhere in aphelion and perihelion. Between page 11-12.
+1. Add an ellipical orbit depicting equal areas covered by an orbiting planet around the Sun. Between page 11-12.
 2. Add tilt to Earth's rotational axis and depict seasons. Between page 14-15.
 3. Add an experiment to show differential fluid flow of Sun. Between page 24-25.
 4. Add switch to toggle synchronous and asynchronous rotation of Moon. Page 30-31.
 5. Demonstrate morning/evening star situations relative to Earth. Page 38-39.
-6. Demonstrate the gap between Mars and Jupiter. Page 51-52.
+6. Demonstrate the gap between Mars and Jupiter, demonstrate the belt of asteroids in between. Page 51-52.
+7. Do a visual experiment to explain projectile motion in gravity. Of Mars, Jupiter and how the trajectory changes from parabolic to circular to hyperbolic as one nears the escape velocity.
+8. Do a visual experiment to explain gravity slingshots.
 
 ## Contributing
 
