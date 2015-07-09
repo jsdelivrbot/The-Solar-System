@@ -1,6 +1,9 @@
 # The-Solar-System
+A quick and immersive journey through our Solar System with a soft primer on Gravitational Physics. Must read for aspiring astronomers, star-gazers and science enthusiasts of all ages out there. 
 
-A quick and immersive journey through our Solar System with a soft primer on Gravitational Physics. Must read for aspiring astronomers, star-gazers and   science enthusiasts of all ages out there. 
+## Demonstration
+
+Open the book here: [The Solar System](https://bubbl.in/cover/the-solar-system-by-marvin-danig)
 
 Learn how our planetary system works, what it's like in space and how astronomy connects all pieces of science together! 
 
