@@ -116,7 +116,7 @@
             .on('click', function (e) {
                 e.preventDefault();
                 if (!$el.hasClass('lazyYT-video-loaded') && $thumb.hasClass('lazyYT-image-loaded')) {
-                    $el.html('<iframe src="//www.youtube.com/embed/' + id + '?' + youtube_parameters + '&autoplay=1" frameborder="0" allowfullscreen></iframe>')
+                    $el.html('<iframe src="https://www.youtube.com/embed/' + id + '?' + youtube_parameters + '&autoplay=1" frameborder="0" allowfullscreen></iframe>')
                         .addClass(settings.video_loaded_class);
                 }
             });
